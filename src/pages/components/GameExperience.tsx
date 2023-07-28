@@ -1,4 +1,3 @@
-import { OrbitControls } from "@react-three/drei";
 import Level from "./Level";
 
 const GameExperience = () => {

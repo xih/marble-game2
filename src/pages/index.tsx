@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { api } from "~/utils/api";
 import GameExperience from "./components/GameExperience";
+import Level from "./components/Level";
 
 export default function Home() {
   return (
