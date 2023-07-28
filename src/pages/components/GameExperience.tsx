@@ -4,6 +4,9 @@ const GameExperience = () => {
   return (
     <>
       <Level />
+      <mesh>
+        <boxGeometry />
+      </mesh>
     </>
   );
 };

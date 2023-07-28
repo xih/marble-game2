@@ -14,9 +14,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex h-screen">
-        <Canvas>
-          {/* <GameExperience /> */}
-          <Level />
+        <Canvas
+          camera={{
+            fov: 45,
+            near: 0.1,
+            far: 50,
+            position: [-4, 3, 6],
+          }}
+          className=""
+        >
+          <GameExperience />
+          {/* <Level /> */}
         </Canvas>
       </main>
     </>
