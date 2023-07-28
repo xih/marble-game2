@@ -15,7 +15,8 @@ export default function Home() {
       </Head>
       <main className="flex h-screen">
         <Canvas>
-          <GameExperience />
+          {/* <GameExperience /> */}
+          <Level />
         </Canvas>
       </main>
     </>
